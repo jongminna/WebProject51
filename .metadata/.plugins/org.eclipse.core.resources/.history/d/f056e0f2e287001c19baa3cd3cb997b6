@@ -1,0 +1,50 @@
+package com.jslhrd.model.user;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import com.jslhrd.util.DBManager;
+
+public class UserDAO {
+	private UserDAO() {}
+	private static UserDAO instance = new UserDAO();
+	public static UserDAO getInstance() {
+		return instance;
+	}
+	
+	//아이디중복 검사 메소드
+	public int idCheck(String userid) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		
+		int row=0;
+		String query="select count(*) from tbl_user where userid=?";
+		try {
+			conn = DBManager.getConnection();
+			pstmt = conn.prepareStatement(query);
+			pstmt.setString(1, userid);
+			
+			rs = pstmt.executeQuery();
+			if(rs.next()) {
+				row=rs.getInt(1);
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			DBManager.close(conn, pstmt,rs);
+		}
+		return row;
+	}
+	
+	// 등록메소드
+	
+	// 로그인 메소드
+	
+	// 회원목록 검색 메소드
+	
+	//수정메소드
+	
+	
+}

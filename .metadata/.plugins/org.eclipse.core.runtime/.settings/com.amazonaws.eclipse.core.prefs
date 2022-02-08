@@ -1,0 +1,9 @@
+cognitoIdentityId=us-east-1\:227e2acb-6d5f-41a0-9b2d-9bc6847d5e73
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=f4018024-889f-41ef-8ff2-658a9cf1d1fc
+currentAccount=f4018024-889f-41ef-8ff2-658a9cf1d1fc
+currentDefaultAccount=f4018024-889f-41ef-8ff2-658a9cf1d1fc
+defaultRegion=ap-northeast-2
+ec2PreferencesImported=true
+eclipse.preferences.version=1
+f4018024-889f-41ef-8ff2-658a9cf1d1fc\:credentialProfileName=websnet_user01

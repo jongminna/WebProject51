@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+		<item value="git-codecommit.ap-northeast-2.amazonaws.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/jsl_project"/>
+		<item value="https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/exProject"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="jongminna &lt;webs1027@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="jongminna &lt;webs1027@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\admin\eclipse-workspace\WebProject51\.git">
+			<item value="false"/>
+			<item value="jongminna &lt;webs1027@gmail.com&gt;"/>
+			<item value="test-1"/>
+			<item value="jongminna &lt;webs1027@gmail.com&gt;"/>
+			<item value="dcd1c1db11314dac564b3b088e4926269143dd54"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\admin\git\repository\.git">
+			<item value="false"/>
+			<item value="jongminna &lt;webs1027@gmail.com&gt;"/>
+			<item value="aaa"/>
+			<item value="jongminna &lt;webs1027@gmail.com&gt;"/>
+			<item value="21dbe4723eb9603d5f809b7a16b4e29d4b0b0117"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="635"/>
+		<item key="DIALOG_Y_ORIGIN" value="223"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+</section>

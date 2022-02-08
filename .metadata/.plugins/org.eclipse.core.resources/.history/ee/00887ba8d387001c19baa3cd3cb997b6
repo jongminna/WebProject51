@@ -1,0 +1,5 @@
+package com.jslhrd.model.user;
+
+public class UserVO {
+
+}
