@@ -1,5 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
+<%@ page import="java.util.*, com.jslhrd.model.pds.*"  %>
 
+<%
+	List<PdsVO> list =(List)request.getAttribute("list");
+
+%>
 <html>
    <head>
       <title> 자료실 리스트 보기 </title>
@@ -38,24 +43,21 @@
         <td width="11%" align="center" height="20"><font face="돋움" size="2">날짜</font></td>
         <td width="5%" align="center" height="20"><font face="돋움" size="2">조회</font></td></tr>
 
+<%
+	for(PdsVO vo : list){
+%>
       <tr onMouseOver="style.backgroundColor='#D1EEEE'" onMouseOut="style.backgroundColor=''">
         <td align="center" height="25">
-        <font face="돋움" size="2" color="#000000">15</font></td>
-		<td align="left" height="20">&nbsp;<font face="돋움" size="2">좋은하루 되세요</font></td>
-        <td align="center" height="20"><font face="돋움" size="2">test.zip</td>
-		<td align="left" height="20"><font face="돋움" size="2">홍길동</font></td>
-		<td align="left" height="20"><font face="돋움" size="2">2007-10-11</font></td>
-		<td align="center" height="20"><font face="돋움" size="2">1</font></td> 	      
+        <font face="돋움" size="2" color="#000000"><%= vo.getIdx() %></font></td>
+		<td align="left" height="20">&nbsp;<font face="돋움" size="2"><a class="list" href="pds_view.do?idx=<%=vo.getIdx()%>"><%= vo.getSubject() %></a></font></td>
+        <td align="center" height="20"><font face="돋움" size="2"><%= vo.getFilename() %></td>
+		<td align="left" height="20"><font face="돋움" size="2"><%= vo.getName() %></font></td>
+		<td align="left" height="20"><font face="돋움" size="2"><%= vo.getRegdate() %></font></td>
+		<td align="center" height="20"><font face="돋움" size="2"><%= vo.getReadcnt() %></font></td> 	      
 	  </tr>  	   
-      <tr onMouseOver="style.backgroundColor='#D1EEEE'" onMouseOut="style.backgroundColor=''">
-        <td align="center" height="25">
-        <font face="돋움" size="2" color="#000000">14</font></td>
-		<td align="left" height="20">&nbsp;<font face="돋움" size="2">우리들의 이야기</font></td>
-        <td align="center" height="20"><font face="돋움" size="2">&nbsp;</td>
-		<td align="left" height="20"><font face="돋움" size="2">홍길동</font></td>
-		<td align="left" height="20"><font face="돋움" size="2">2007-10-09</font></td>
-		<td align="center" height="20"><font face="돋움" size="2">3</font></td> 	      
-	  </tr>  	
+<%
+	}
+%>	  
 	  
       <tr>
        <td colspan="7"><hr width="100%"></td></tr>
@@ -65,7 +67,7 @@
 		</tr>
    <tr>
       <td colspan="7" align="right">
-				<img src="./img/write.gif" alt="자료등록" align="middle" border="0"></a>
+			<a href="/Pds/pds_write.do"><img src="./img/write.gif" alt="자료등록" align="middle" border="0"></a>
       &nbsp;
 	  </td>
    </tr>

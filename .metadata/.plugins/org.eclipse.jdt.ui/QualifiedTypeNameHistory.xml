@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.jslhrd.exmodel.util.DBManager"/>
 <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Set"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
 <fullyQualifiedTypeName name="com.jslhrd.model.guest.GuestVO"/>
 <fullyQualifiedTypeName name="com.jslhrd.model.guest.GuestDAO"/>
@@ -15,8 +14,9 @@
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.jslhrd.util.DBManager"/>
-<fullyQualifiedTypeName name="com.jslhrd.model.user.UserDAO"/>
 <fullyQualifiedTypeName name="com.jslhrd.util.UserSHA256"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.jslhrd.model.user.UserDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

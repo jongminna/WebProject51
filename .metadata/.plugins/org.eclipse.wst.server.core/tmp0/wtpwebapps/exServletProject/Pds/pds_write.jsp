@@ -2,6 +2,24 @@
 
 <html>
    <head><title> 자료 올리기 </title>
+   
+<script>
+	function file_check(){
+		var size = pds.filename.files[0].size;
+		if(size>(2*1024*1024)){
+			alert("파일용량은 2M를 초과할 수 없음");
+			pds.filename.value="";
+			pds.filename.focus();
+			return;
+		}
+		
+	}
+	function send(){
+		alert("자료를 등록합니다.");
+		pds.action="/Pds/pds_write.do";
+		pds.submit();
+	}
+</script>   
    </head> 
 <body>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -18,7 +36,7 @@
      <font size="2"> - 자료올리기</font><p>
      <img src="./img/bullet-03.gif"><font size="2" face="돋움" color="orange"> 잠깐</font> &nbsp;
      <img src="./img/bullet-02.gif"><font size="2" face="돋움">는 필수 입력 사항입니다.</font><p>
-
+	<form name="pds" method="post" enctype="multipart/form-data">
 	  <table border="0" >
 		<tr>
          <td width="5%" align="right"><img src="./img/bullet-02.gif"></td>
@@ -44,7 +62,7 @@
 		<tr>
 		  <td align="right"><img src="./img/bullet-02.gif"></td>
 		  <td><font size="2" face="돋움">파일첨부</font></td>
-		  <td><input type="file" name="filename" size="30"></td></tr>
+		  <td><input type="file" name="filename" size="30" onChange="file_check()"></td></tr>
 		<tr>
        <tr>
          <td align="right"><img src="./img/bullet-02.gif"></td>
@@ -58,12 +76,13 @@
           <td align="right">&nbsp;</td>
           <td><font size="2">&nbsp;</font></td>
           <td align=center>
-			<img src="./img/purple_save.gif" width="56" height="18" border="0">
+			<img src="./img/purple_save.gif" width="56" height="18" border="0" onClick="send()">
 			<img src="./img/purple_cancle.gif" width="56" height="18" border="0">
 
 		  </td>
         </tr>
       </table>
+      </form>
     </td>
   </tr>
  </table>

@@ -5,7 +5,30 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-02-04T13:40:25Z</updated>
+  <updated>2022-02-08T12:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - February 8th, 2022</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/02/08/this-week-in-spring-february-8th-2022" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-02-08:4693</id>
+    <updated>2022-02-08T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans, and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! How are you? I&amp;rsquo;m doin&amp;rsquo; well. Got a lot of exciting stuff to share with you in the near future so check this space! We&amp;rsquo;ve got a ton to get to this week so let&amp;rsquo;s dive right in! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/03/a-bootiful-podcast-former-spring-data-lead-and-architect-extraordinaire-oliver-drotbohm"&gt;A Bootiful Podcast: Former Spring Data lead and architect extraordinaire, Oliver Drotbohm&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/xmolecules/jmolecules-examples/commit/4e6094257e669e6d99514cbb645c0cabe3ccde08"&gt;Introduce example value object implemented as record. ¡¤ xmolecules/jmolecules-examples@4e60942&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/04/spring-shell-2-1-0-m2-is-now-available"&gt;Spring Shell 2.1.0-M2 is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/02/02/spring-tools-4-13-1-released"&gt;Spring Tools 4.13.1 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;the initial &lt;a href="https://github.com/spring-projects/spring-boot/issues/29666"&gt;Micrometer 2.0.0 and Micrometer Tracing 1.0.0 observability is on its way to Spring Boot!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1489040682391982080"&gt;Additions and Updates to Microsoft Build of #OpenJDK https://t.co/LRWnPdBTIY #OpenJDK https://devblogs.microsoft.com/java/additions-and-updates-to-microsoft-build-of-openjdk/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/02/07/sig-multicluster-spotlight-2022/"&gt;Blog: Spotlight on SIG Multicluster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/openjdk/jdk/releases/tag/jdk-18%2B33"&gt;Build 33 of Java 18 is available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://bell-sw.com/announcements/2022/01/28/liberica-native-image-kit-22-0-0-2-and-21-3-1-builds-are-released/"&gt;Liberica Native Image Kit 22.0.0.2 and 21.3.1 builds are released&lt;/a&gt; (check out the bit about Spring Native)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Shell 2.1.0-M2 is now available</title>
     <link rel="alternate" href="https://spring.io/blog/2022/02/04/spring-shell-2-1-0-m2-is-now-available" />
@@ -872,31 +895,6 @@ There are many levels on which you may choose to implement the desired behavior.
   &lt;li&gt;Migrate your &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-spring-cloud"&gt;Spring Boot&lt;/a&gt;, &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-cloud-to-azure-spring-cloud"&gt;Spring Cloud&lt;/a&gt;, and &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-tomcat-to-azure-spring-cloud"&gt;Tomcat&lt;/a&gt; applications to Azure Spring Cloud&lt;/li&gt;
   &lt;li&gt;Wire Spring applications to &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/"&gt;interact with Azure services&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;For feedback and questions, please &lt;a href="mailto:AzureSpringCloud-Talk@service.microsoft.com"&gt;e-mail us&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - January 18th, 2022</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/01/18/this-week-in-spring-january-18th-2022" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-01-18:4674</id>
-    <updated>2022-01-18T20:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another jam-packed, fun-filled, rock&amp;rsquo;em sock&amp;rsquo;em installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&amp;rsquo;s the 18th of January and I&amp;rsquo;m feelin&amp;rsquo; great because I just got back from a three-day weekend. Here in the US, we celebrated on Monday the life of the good Dr. Martin Luther King Jr., a civil rights activist who advanced the plight of African American civil rights. Dr. King is &lt;em&gt;another&lt;/em&gt; one of my &lt;em&gt;favorite&lt;/em&gt; doctors, along with Drs. Syer, Strange, Who, Subramaniam, and Pollack.&lt;/p&gt;
-&lt;p&gt;How&amp;rsquo;re you? We&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/13/a-bootiful-podcast-spring-cloud-data-flow-legend-sabby-anandan"&gt;A Bootiful Podcast: Spring Cloud Data Flow legend Sabby Anandan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/14/first-spring-data-2022-0-0-and-2021-2-0-milestones-released"&gt;First Spring Data 2022.0.0 and 2021.2.0 milestones released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/cote/status/1480944939504738305?s=12"&gt;Michael Cot? on Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;the Oracle Java team&amp;rsquo;s &lt;a href="https://twitter.com/sharat_chander/status/1481749955215646723?s=12"&gt;Sharat Chander (@sharat_chandler) recently took time to thank me&lt;/a&gt;, along with my heroes and &lt;a href="https://bootifulpodcast.fm"&gt;Bootiful Podcast&lt;/a&gt; guests &lt;a href="https://twitter.com/venkat_s"&gt;Dr. Venkat Subramaniam (@venkat_s)&lt;/a&gt; and &lt;a href="https://twitter.com/mraible"&gt;Matt Raible (@mraible)&lt;/a&gt;, for our contributions to the Java ecosystem. I want to return the favor, Sharat, here on this very large platform: &lt;em&gt;thank YOU&lt;/em&gt; for all you&amp;rsquo;ve done for the community. You&amp;rsquo;re an inspiration.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/14/spring-data-2021-1-sr1-and-2021-0-sr8-released"&gt;Spring Data 2021.1 SR1 and 2021.0 SR8 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/13/spring-framework-6-0-0-m2-and-5-3-15-available-now"&gt;Spring Framework 6.0.0-M2 and 5.3.15 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/17/spring-rest-docs-2-0-6-release"&gt;Spring REST Docs 2.0.6.RELEASE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/17/spring-rest-docs-3-0-0-m1"&gt;Spring REST Docs 3.0.0-M1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/01/17/spring-security-6-0-0-m1-and-5-7-0-m1-available-now"&gt;Spring Security 6.0.0-M1 and 5.7.0-M1 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/JavaAtMicrosoft/status/1481348027428208641"&gt;An update about the rollout of the Microsoft Build of OpenJDK on Azure Platform Services &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>

@@ -34,14 +34,14 @@
        <tr bgcolor="e3e9ff">
          <td class="title">
            <img src="./img/bullet-04.gif">   
-           <font size="2" face="돋움">좋은 하루 되세요
+           <font size="2" face="돋움">${vo.subject}
            </font></td></tr>
 		<tr>  
 			<td class="content">
-				<p align="right"><font size="2" face="돋움">  길동 / 2007-10-11 / 2번 읽음
-			    <p>언제나 즐겁고 행복한 하루가 되었으면 합니다.<br>
-				항상 노력하는 자 만이 성공할 수 있다.<p>
-				<img src="./img/disk.gif" align="middle" width="22" height="20" border="0">&nbsp;test.zip</font>
+				<p align="right"><font size="2" face="돋움"> ${vo.name} / ${vo.regdate} / ${vo.readcnt}번 읽음
+			    <p>${vo.contents}<p>
+				<img src="./img/disk.gif" align="middle" width="22" height="20" border="0">&nbsp;
+					<a href="/Pds/upload/${vo.filename}">${vo.filename}</a></font>
 			</td>
 		</tr>
 	  </table>

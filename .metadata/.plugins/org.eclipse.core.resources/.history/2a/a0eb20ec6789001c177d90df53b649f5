@@ -1,0 +1,5 @@
+package com.jslhrd.model.pds;
+
+public class PdsVO {
+
+}
