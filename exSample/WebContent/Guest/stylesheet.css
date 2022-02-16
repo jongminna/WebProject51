@@ -1,0 +1,13 @@
+a {text-decoration:none;color:blue;}
+a.white {text-decoration:none;color:white;}
+a.notice {font-size:9pt;color:black;font-family:µ¸¿ò;}
+a.no {font-size:12pt;font-weight:bolder;color:pink;}
+body {
+  scrollbar-track-color:#E3F2F9;
+  scrollbar-face-color:#00688B;
+  scrollbar-highlight-color:white;
+  scrollbar-3dlight-color:#6CA6CD;
+  scrollbar-darkshadow-color:black;
+  scrollbar-shadow-color:black;
+  scrollbar-arrow-color:white;
+}
